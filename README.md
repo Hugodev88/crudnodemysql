@@ -8,7 +8,7 @@ A estrutura de diretórios do projeto é a seguinte:
 
 Book Manager App 
 ├── db 
-│ └── conn.js 
+│ └── conn.js
 ├── node_modules 
 ├── public 
 │ └── css │ └── style.css 
