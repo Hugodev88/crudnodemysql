@@ -7,21 +7,21 @@ Este é um projeto de gerenciamento de livros criado com Node.js, Express e MySQ
 A estrutura de diretórios do projeto é a seguinte:
 
 Book Manager App 
-├── db 
-│ └── conn.js
-├── node_modules 
-├── public 
-│ └── css │ └── style.css 
-├── views  
-│ ├── layouts 
-│ │ └── main.handlebars
-│ ├── book.handlebars
-│ ├── books.handlebars 
-│ ├── editbook.handlebars 
-│ └── home.handlebars 
-├── index.js 
-├── package-lock.json
-└── package.json 
+- ├── db 
+- │ └── conn.js
+- ├── node_modules 
+- ├── public 
+- │ └── css │ └── style.css 
+- ├── views  
+- │ ├── layouts 
+- │ │ └── main.handlebars
+- │ ├── book.handlebars
+- │ ├── books.handlebars 
+- │ ├── editbook.handlebars 
+- │ └── home.handlebars 
+- ├── index.js 
+- ├── package-lock.json
+- └── package.json 
 
 ## 🚀 Tecnologias Utilizadas
 
