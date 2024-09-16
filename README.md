@@ -56,8 +56,8 @@ A estrutura de diretórios do projeto é a seguinte:
    npm start
 5. Acesse a aplicação em http://localhost:3000.
 
-# 🗄️ Configuração do Banco de Dados
+## 🗄️ Configuração do Banco de Dados
 A conexão com o banco de dados está configurada no arquivo db/conn.js. Certifique-se de configurar as credenciais do MySQL (usuário, senha, host e banco de dados).
 
-# 📄 Licença
+## 📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
