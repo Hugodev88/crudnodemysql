@@ -60,5 +60,3 @@ A conexão com o banco de dados está configurada no arquivo db/conn.js. Certifi
 
 ## 📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-teste
