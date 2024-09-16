@@ -8,17 +8,17 @@ A estrutura de diretórios do projeto é a seguinte:
 
 📦 Book Manager App 
 ├── 📂 db 
-  │ └── conn.js # Configuração da conexão com o banco de dados MySQL 
+│ └── conn.js # Configuração da conexão com o banco de dados MySQL 
 ├── 📂 node_modules # Dependências do Node.js 
 ├── 📂 public # Arquivos estáticos (CSS, imagens, etc.) 
-  │ └── 📂 css │ └── style.css # Arquivo de estilo CSS 
+│ └── 📂 css │ └── style.css # Arquivo de estilo CSS 
 ├── 📂 views # Templates Handlebars
-  │ ├── 📂 layouts 
-    │ │ ├── main.handlebars # Layout principal 
-  │ │ ├── book.handlebars # Página de detalhes de um livro 
-  │ │ ├── books.handlebars # Página de listagem de livros 
-  │ │ ├── editbook.handlebars # Página de edição de livro 
-  │ │ └── home.handlebars # Página inicial
+│ ├── 📂 layouts 
+│ │ ├── main.handlebars # Layout principal 
+│ │ ├── book.handlebars # Página de detalhes de um livro 
+│ │ ├── books.handlebars # Página de listagem de livros 
+│ │ ├── editbook.handlebars # Página de edição de livro 
+│ │ └── home.handlebars # Página inicial
 ├── index.js # Arquivo principal da aplicação Node.js 
 ├── package-lock.json # Arquivo gerado automaticamente para bloquear as versões exatas das dependências instaladas 
 ├── package.json # Configuração do projeto e dependências
@@ -47,7 +47,17 @@ A estrutura de diretórios do projeto é a seguinte:
    git clone https://github.com/seu-usuario/seu-repositorio.git
 
 2. Instale as dependências:
-  ```bash
-   
+   ```bash
+   npm install
+3. Configure o banco de dados MySQL e ajuste a conexão no arquivo db/conn.js.
 
-  
+4. Inicie o servidor:
+   ```bash
+   npm start
+5. Acesse a aplicação em http://localhost:3000.
+
+# 🗄️ Configuração do Banco de Dados
+A conexão com o banco de dados está configurada no arquivo db/conn.js. Certifique-se de configurar as credenciais do MySQL (usuário, senha, host e banco de dados).
+
+# 📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
