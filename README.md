@@ -6,22 +6,7 @@ Este é um projeto de gerenciamento de livros criado com Node.js, Express e MySQ
 
 A estrutura de diretórios do projeto é a seguinte:
 
-📦 Book Manager App 
-├── 📂 db 
-│ └── conn.js # Configuração da conexão com o banco de dados MySQL 
-├── 📂 node_modules # Dependências do Node.js 
-├── 📂 public # Arquivos estáticos (CSS, imagens, etc.) 
-│ └── 📂 css │ └── style.css # Arquivo de estilo CSS 
-├── 📂 views # Templates Handlebars
-│ ├── 📂 layouts 
-│ │ ├── main.handlebars # Layout principal 
-│ │ ├── book.handlebars # Página de detalhes de um livro 
-│ │ ├── books.handlebars # Página de listagem de livros 
-│ │ ├── editbook.handlebars # Página de edição de livro 
-│ │ └── home.handlebars # Página inicial
-├── index.js # Arquivo principal da aplicação Node.js 
-├── package-lock.json # Arquivo gerado automaticamente para bloquear as versões exatas das dependências instaladas 
-├── package.json # Configuração do projeto e dependências
+📦 Book Manager App ├── 📂 db │ └── conn.js # Configuração da conexão com o banco de dados MySQL ├── 📂 node_modules # Dependências do Node.js ├── 📂 public # Arquivos estáticos (CSS, imagens, etc.) │ └── 📂 css │ └── style.css # Arquivo de estilo CSS ├── 📂 views # Templates Handlebars │ ├── 📂 layouts │ │ ├── main.handlebars # Layout principal │ │ ├── book.handlebars # Página de detalhes de um livro │ │ ├── books.handlebars # Página de listagem de livros │ │ ├── editbook.handlebars # Página de edição de livro │ │ └── home.handlebars # Página inicial ├── index.js # Arquivo principal da aplicação Node.js ├── package-lock.json # Arquivo gerado automaticamente para bloquear as versões exatas das dependências instaladas ├── package.json # Configuração do projeto e dependências
 
 
 ## 🚀 Tecnologias Utilizadas
